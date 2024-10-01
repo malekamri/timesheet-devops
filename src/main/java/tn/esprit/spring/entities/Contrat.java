@@ -46,7 +46,7 @@ public class Contrat implements Serializable {
 		this.typeContrat = typeContrat;
 		this.salaire = salaire;
 	}
-//modif2
+//"modification 2"
 
 	public Date getDateDebut() {
 		return dateDebut;
