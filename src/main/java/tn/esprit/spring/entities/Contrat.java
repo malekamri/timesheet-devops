@@ -36,7 +36,7 @@ public class Contrat implements Serializable {
 	private Employe employe;
 
 	private float salaire;
-
+//autres commenatires
 	public Contrat() {
 		super();
 	}
