@@ -28,7 +28,7 @@ public class Contrat implements Serializable {
 	
 	@Temporal(TemporalType.DATE)
 	private Date dateDebut;
-	 //modif2
+	 //modif1
 	private String typeContrat;
  
 	@JsonIgnore
@@ -36,7 +36,7 @@ public class Contrat implements Serializable {
 	private Employe employe;
 
 	private float salaire;
-//autres commenatires
+
 	public Contrat() {
 		super();
 	}
@@ -46,7 +46,7 @@ public class Contrat implements Serializable {
 		this.typeContrat = typeContrat;
 		this.salaire = salaire;
 	}
-
+//modif2
 
 	public Date getDateDebut() {
 		return dateDebut;
